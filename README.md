@@ -1,3 +1,5 @@
+## 42
+Mes codes pour la piscine Septembre 2022.
 
 ## Astuces pour les exam
 - La norminette n'est pas exécutée lors des exams, ne perdez pas de temps à cause de cela.
