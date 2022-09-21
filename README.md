@@ -1,9 +1,8 @@
-# 42
 
-### Astuces pour les exam
+## Astuces pour les exam
 - La norminette n'est pas exécutée lors des exams, ne perdez pas de temps à cause de cela.
 
-### Astuces pour la piscine
+## Astuces pour la piscine
 
 #### Semaine 1: Shell00, C00, C01, Rush00
 - Commencez le C00 dès la fin du Shell00; c'est la meilleur stratégie pour l'exam.
