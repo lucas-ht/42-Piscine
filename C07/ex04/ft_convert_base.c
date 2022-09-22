@@ -1,5 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_convert_base.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lhutt <lhutt@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/12 01:04:19 by lhutt             #+#    #+#             */
+/*   Updated: 2022/09/22 22:22:03 by lhutt            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
-#include <unistd.h>
+
+extern void	ft_convert_to_base(int nbr, char *base, char *nbrf);
+extern int	nb_len(int nbr, char *base);
 
 int	is_base_valid(char *base)
 {
@@ -39,78 +53,65 @@ int	nb_base(char str, char *base)
 	return (-1);
 }
 
+int	ft_atoi_space_sign(char *str, int *ptr_i)
+{
+	int	sign;
+	int	i;
+
+	i = 0;
+	while ((str[i] >= 9 && str[i] <= 13) || str[i] == 32)
+		i++;
+	sign = 1;
+	while (str[i] && (str[i] == 43 || str[i] == 45))
+	{
+		if (str[i] == 45)
+			sign *= -1;
+		i++;
+	}
+	*ptr_i = i;
+	return (sign);
+}
+
 int	ft_atoi_base(char *str, char *base)
 {
+	int		i;
 	int		j;
 	int		n;
 	int		sign;
 	int		base_len;
 
 	n = 0;
-	sign = 1;
+	i = 0;
 	base_len = is_base_valid(base);
-	if (base_len <= 1)
-		return (0);
-	while (*str && ((*str >= 9 && *str <= 13) || *str == 32))
-		str++;
-	while (*str && (*str == 43 || *str == 45))
+	if (base_len >= 2)
 	{
-		if (*str++ == 45)
-			sign *= -1;
+		sign = ft_atoi_space_sign(str, &i);
+		j = nb_base(str[i], base);
+		while (j != -1)
+		{
+			n = (n * base_len) + j;
+			i++;
+			j = nb_base(str[i], base);
+		}
+		return (n *= sign);
 	}
-	j = nb_base(*str++, base);
-	while (j != -1)
-	{
-		n = (n * base_len) + j;
-		j = nb_base(*str++, base);
-	}
-	return (n *= sign);
-}
-
-char	*ft_convert_base_str(int n, int str_len, char *base_to, int base_len)
-{
-	char	*str;
-
-	str = malloc(sizeof(char) * (str_len + 2));
-	if (n < 0)
-	{
-		*str = '-';
-		n *= -1;
-	}
-	str += str_len - 10;
-	while (n)
-	{
-		*str = base_to[n % base_len - 1];
-		str--;
-		n /= base_len;
-	}
-	str[str_len + 1] = 0;
-	return (++str);
+	return (0);
 }
 
 char	*ft_convert_base(char *nbr, char *base_from, char *base_to)
 {
-	int		base_len;
-	int		str_len;
+	char	*str;
 	int		n;
+	int		len;
 
-	if (!is_base_valid(base_from) || !is_base_valid(base_to))
+	if (is_base_valid(base_to) == 0 || is_base_valid(base_from) == 0)
 		return (0);
-	base_len = 0;
-	while (*base_to++)
-		base_len++;
-	base_to -= base_len;
-	str_len = 1;
 	n = ft_atoi_base(nbr, base_from);
-	if (n < 0)
-		n *= -1;
-	while (n >= base_len)
-	{
-		n /= base_len;
-		str_len++;
-	}
-	n = ft_atoi_base(nbr, base_from);
-	if (n < 0)
-		str_len++;
-	return (ft_convert_base_str(n, str_len, base_to, base_len));
+	len = nb_len(n, base_to);
+	str = (char *)malloc(sizeof(char) * (len + 1));
+	if (!str)
+		return (0);
+	ft_convert_to_base(n, base_to, str);
+	str[len] = '\0';
+	return (str);
 }

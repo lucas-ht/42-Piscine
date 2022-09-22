@@ -1,86 +1,88 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lhutt <lhutt@student.42.fr>                +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/09/19 11:27:42 by lhutt             #+#    #+#             */
+/*   Updated: 2022/09/21 05:43:21 by lhutt            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdlib.h>
 
-int	check_separator(char c, char *charset)
+int	is_char_in_charset(char c, char *charset)
 {
-	int	i;
-
-	i = 0;
-	while (charset[i] != '\0')
+	while (*charset)
 	{
-		if (c == charset[i])
+		if (c == *charset++)
 			return (1);
-		i++;
 	}
 	return (0);
 }
 
-int	count_strings(char *str, char *charset)
+int	count_word(char *str, char *charset)
 {
-	int	i;
-	int	count;
+	int	c;
 
-	count = 0;
-	i = 0;
-	while (str[i] != '\0')
+	c = 0;
+	while (*str)
 	{
-		while (str[i] != '\0' && check_separator(str[i], charset))
-			i++;
-		if (str[i] != '\0')
-			count++;
-		while (str[i] != '\0' && !check_separator(str[i], charset))
-			i++;
+		while (*str && is_char_in_charset(*str, charset))
+			str++;
+		if (*str)
+			c++;
+		while (*str && !is_char_in_charset(*str, charset))
+			str++;
 	}
-	return (count);
+	return (c);
 }
 
-int	ft_strlen_sep(char *str, char *charset)
+int	str_len(char *str, char *charset)
 {
 	int	i;
 
 	i = 0;
-	while (str[i] && !check_separator(str[i], charset))
+	while (str[i] && !is_char_in_charset(str[i], charset))
 		i++;
 	return (i);
 }
 
-char	*ft_word(char *str, char *charset)
+char	*ft_split_word(char *str, char *charset)
 {
-	int		len_word;
+	int		len;
 	int		i;
 	char	*word;
 
 	i = 0;
-	len_word = ft_strlen_sep(str, charset);
-	word = (char *)malloc(sizeof(char) * (len_word + 1));
-	while (i < len_word)
+	len = str_len(str, charset);
+	word = malloc(sizeof(char) * (len + 1));
+	while (i < len)
 	{
 		word[i] = str[i];
 		i++;
 	}
-	word[i] = '\0';
+	word[i] = 0;
 	return (word);
 }
 
 char	**ft_split(char *str, char *charset)
 {
-	char	**strings;
+	char	**strs;
 	int		i;
 
 	i = 0;
-	strings = (char **)malloc(sizeof(char *)
-			* (count_strings(str, charset) + 1));
-	while (*str != '\0')
+	strs = malloc(sizeof(char *) * (count_word(str, charset) + 1));
+	while (*str)
 	{
-		while (*str != '\0' && check_separator(*str, charset))
+		while (*str && is_char_in_charset(*str, charset))
 			str++;
-		if (*str != '\0')
-		{
-			strings[i] = ft_word(str, charset);
-			i++;
-		}
-		while (*str && !check_separator(*str, charset))
+		if (*str)
+			strs[i++] = ft_split_word(str, charset);
+		while (*str && !is_char_in_charset(*str, charset))
 			str++;
 	}
-	strings[i] = 0;
-	return (strings);
+	strs[i] = 0;
+	return (strs);
 }
