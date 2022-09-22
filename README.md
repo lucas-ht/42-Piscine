@@ -23,72 +23,72 @@ Mes codes pour la piscine Septembre 2022.
 
 ## Sommaire
 
-#### C00 - 50%
+#### [C00 - 50%](https://github.com/zer420/42/tree/main/C00)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | Nothing turned in | Does not compile | KO | Timeout |
 
-#### C01 - 100%
+#### [C01 - 100%](https://github.com/zer420/42/tree/main/C01)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### C02 - 65%
+#### [C02 - 65%](https://github.com/zer420/42/tree/main/C02)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 | ex10 | ex11 | ex12 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Does not compile | KO | Does not compile |
 
-#### C03 - 100%
+#### [C03 - 100%](https://github.com/zer420/42/tree/main/C03)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### C04 - 100%
+#### [C04 - 100%](https://github.com/zer420/42/tree/main/C04)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### C05 - 80%
+#### [C05 - 80%](https://github.com/zer420/42/tree/main/C05)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Nothing turned in |
 
-#### C06 - 100%
+#### [C06 - 100%](https://github.com/zer420/42/tree/main/C06)
 | ex00 | ex01 | ex02 | ex03 |
 | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   |
 
-#### C07 - 100%
+#### [C07 - 100%](https://github.com/zer420/42/tree/main/C07)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### C08 - 100%
+#### [C08 - 100%](https://github.com/zer420/42/tree/main/C08)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### C09 - 100%
+#### [C09 - 100%](https://github.com/zer420/42/tree/main/C09)
 | ex00 | ex01 | ex02 |
 | ---- | ---- | ---- |
 | OK   | OK   | OK   |
 
-#### C11 - 100%
+#### [C11 - 100%](https://github.com/zer420/42/tree/main/C11)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### Rush00 - 108%
+#### [Rush00 - 108%](https://github.com/zer420/42/tree/main/Rush00)
 | ex00 |
 | ---- |
 | OK   |
 
-#### Shell00 - 100%
+#### [Shell00 - 100%](https://github.com/zer420/42/tree/main/Shell00)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
 
-#### Shell01 - 100%
+#### [Shell01 - 100%](https://github.com/zer420/42/tree/main/Shell01)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
