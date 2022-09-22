@@ -20,3 +20,75 @@ Mes codes pour la piscine Septembre 2022.
 
 #### Semaine 4: C11
 - Ne faites pas le BSQ, finir à 100% ses days précédent est judicieux afin de réviser pour l'exam final.
+
+## Sommaire
+
+#### C00 - 50%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | Nothing turned in | Does not compile | KO | Timeout |
+
+#### C01 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### C02 - 65%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 | ex10 | ex11 | ex12 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Does not compile | KO | Does not compile |
+
+#### C03 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### C04 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### C05 - 80%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Nothing turned in |
+
+#### C06 - 100%
+| ex00 | ex01 | ex02 | ex03 |
+| ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   |
+
+#### C07 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### C08 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### C09 - 100%
+| ex00 | ex01 | ex02 |
+| ---- | ---- | ---- |
+| OK   | OK   | OK   |
+
+#### C11 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### Rush00 - 108%
+| ex00 |
+| ---- |
+| OK   |
+
+#### Shell00 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### Shell01 - 100%
+| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
