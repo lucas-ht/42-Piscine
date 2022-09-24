@@ -1,4 +1,4 @@
-## 42
+## 42 Piscine
 Mes codes pour la piscine Septembre 2022.
 
 ## Astuces pour les exams
