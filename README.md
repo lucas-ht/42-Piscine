@@ -58,10 +58,10 @@ Mes codes pour la piscine Septembre 2022.
 | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   |
 
-#### [C07 - 100%](https://github.com/zer420/42/tree/main/C07)
+#### [C07 - 45%](https://github.com/zer420/42/tree/main/C07)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   |
+| OK   | OK   | OK   | SIGABORT   | OK   | OK   |
 
 #### [C08 - 100%](https://github.com/zer420/42/tree/main/C08)
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
