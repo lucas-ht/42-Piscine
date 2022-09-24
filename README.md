@@ -92,3 +92,8 @@ Mes codes pour la piscine Septembre 2022.
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
+
+#### Exam00 - 64%
+#### Exam01 - 80%
+#### Exam02 - 100%
+#### Exam03 - 90%
