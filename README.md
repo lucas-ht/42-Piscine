@@ -21,80 +21,86 @@ Mes codes pour la piscine Septembre 2022.
 #### Semaine 4: C11
 - Ne faites pas le BSQ, finir à 100% ses days précédent est judicieux afin de réviser pour l'exam final.
 
-## Sommaire
+## Days
 
-#### [C00 - 50%](https://github.com/zer420/42/tree/main/C00)
+[`C00`](/C00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-50%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | Nothing turned in | Does not compile | KO | Timeout |
-
-#### [C01 - 100%](https://github.com/zer420/42/tree/main/C01)
+| OK   | OK   | OK   | OK   | OK   | NTI  | DNC  | KO   | TM   |
+##
+[`C01`](/C01) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [C02 - 65%](https://github.com/zer420/42/tree/main/C02)
+##
+[`C02`](/C02) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-65%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 | ex10 | ex11 | ex12 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Does not compile | KO | Does not compile |
-
-#### [C03 - 100%](https://github.com/zer420/42/tree/main/C03)
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | DNC  | KO   | DNC  |
+##
+[`C03`](/C03) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [C04 - 100%](https://github.com/zer420/42/tree/main/C04)
+##
+[`C04`](/C04) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [C05 - 80%](https://github.com/zer420/42/tree/main/C05)
+##
+[`C05`](/C05) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-80%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | Nothing turned in |
-
-#### [C06 - 100%](https://github.com/zer420/42/tree/main/C06)
+| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | NTI |
+##
+[`C06`](/C06) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 |
 | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   |
-
-#### [C07 - 45%](https://github.com/zer420/42/tree/main/C07)
+##
+[`C07`](/C07) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-45%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | SIGABORT   | OK   | OK   |
-
-#### [C08 - 100%](https://github.com/zer420/42/tree/main/C08)
+| OK   | OK   | OK   | SGA  | OK   | OK   |
+##
+[`C08`](/C08) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [C09 - 100%](https://github.com/zer420/42/tree/main/C09)
+##
+[`C09`](/C09) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 |
 | ---- | ---- | ---- |
 | OK   | OK   | OK   |
-
-#### [C11 - 100%](https://github.com/zer420/42/tree/main/C11)
+##
+[`C11`](/C11) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [Rush00 - 108%](https://github.com/zer420/42/tree/main/Rush00)
+##
+[`Rush00`](/Rush00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-108%25-success"/>
 | ex00 |
 | ---- |
 | OK   |
-
-#### [Shell00 - 100%](https://github.com/zer420/42/tree/main/Shell00)
+##
+[`Shell00`](/Shell00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-
-#### [Shell01 - 100%](https://github.com/zer420/42/tree/main/Shell01)
+##
+[`Shell01`](/Shell01) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
 | ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
 
+##
+* NTI: Nothing turned in
+* DNC: Does not compile
+* TM: Timeout
+* SGA: SIGABORT
 
-#### Exam00 - 64%
-#### Exam01 - 80%
-#### Exam02 - 100%
-#### Exam03 - 90%
+## Exams
+* `Exam00` <img height="25" align="right" src="https://img.shields.io/badge/64%25-success"/>
+* `Exam01` <img height="25" align="right" src="https://img.shields.io/badge/80%25-success"/>
+* `Exam02` <img height="25" align="right" src="https://img.shields.io/badge/100%25-success"/>
+* `Exam03` <img height="25" align="right" src="https://img.shields.io/badge/90%25-success"/>
