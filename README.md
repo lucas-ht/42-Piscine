@@ -21,86 +21,121 @@ Mes codes pour la piscine Septembre 2022.
 #### Semaine 4: C11
 - Ne faites pas le BSQ, finir à 100% ses days précédent est judicieux afin de réviser pour l'exam final.
 
+---
+
+## Résumé
+
+<picture><img src="https://badge42.vercel.app/api/v2/clf048y1p00110fmbm8csxx03/stats?cursusId=9&coalitionId=piscine"/></picture>
+
+---
+
 ## Days
 
-[`C00`](/C00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-50%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | NTI  | DNC  | KO   | TM   |
-##
-[`C01`](/C01) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`C02`](/C02) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-65%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 | ex10 | ex11 | ex12 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | DNC  | KO   | DNC  |
-##
-[`C03`](/C03) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`C04`](/C04) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`C05`](/C05) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-80%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | NTI |
-##
-[`C06`](/C06) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 |
-| ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   |
-##
-[`C07`](/C07) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-45%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | SGA  | OK   | OK   |
-##
-[`C08`](/C08) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`C09`](/C09) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 |
-| ---- | ---- | ---- |
-| OK   | OK   | OK   |
-##
-[`C11`](/C11) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`Rush00`](/Rush00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-108%25-success"/>
-| ex00 |
-| ---- |
-| OK   |
-##
-[`Shell00`](/Shell00) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 | ex09 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
-##
-[`Shell01`](/Shell01) <img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/>
-| ex00 | ex01 | ex02 | ex03 | ex04 | ex05 | ex06 | ex07 | ex08 |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   | OK   |
+[`C00`](/C00) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-50%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | NTI[^1] | DNC[^2] | KO      | TM[^3]  |
 
-##
-* NTI: Nothing turned in
-* DNC: Does not compile
-* TM: Timeout
-* SGA: SIGABORT
+---
+
+[`C01`](/C01) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`C02`](/C02) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-65%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    | ex09    | ex10    | ex11    | ex12    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | DNC[^2] | KO      | DNC[^2] |
+
+---
+
+[`C03`](/C03) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`C04`](/C04) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`C05`](/C05) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-80%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | NTI[^1] |
+
+---
+
+[`C06`](/C06) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    |
+| :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      |
+
+---
+
+[`C07`](/C07) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-45%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | SGA[^4] | OK      | OK      |
+
+---
+
+[`C08`](/C08) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00   | ex01    | ex02    | ex03    | ex04    | ex05    |
+| :----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK     | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`C09`](/C09) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    |
+| :-----: | :-----: | :-----: |
+| OK      | OK      | OK      |
+
+---
+
+[`C11`](/C11) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`Rush00`](/Rush00) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-108%25-success"/></picture>
+| ex00    |
+| :-----: |
+| OK      |
+
+---
+
+[`Shell00`](/Shell00) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    | ex09    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
+
+[`Shell01`](/Shell01) <picture><img height="25" align="right" src="https://img.shields.io/badge/Moulinette-100%25-success"/></picture>
+| ex00    | ex01    | ex02    | ex03    | ex04    | ex05    | ex06    | ex07    | ex08    |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      | OK      |
+
+---
 
 ## Exams
-* `Exam00` <img height="25" align="right" src="https://img.shields.io/badge/64%25-success"/>
-* `Exam01` <img height="25" align="right" src="https://img.shields.io/badge/80%25-success"/>
-* `Exam02` <img height="25" align="right" src="https://img.shields.io/badge/100%25-success"/>
-* `Exam03` <img height="25" align="right" src="https://img.shields.io/badge/90%25-success"/>
+* `Exam00` <picture><img height="25" align="right" src="https://img.shields.io/badge/64%25-success"/></picture>
+* `Exam01` <picture><img height="25" align="right" src="https://img.shields.io/badge/80%25-success"/></picture>
+* `Exam02` <picture><img height="25" align="right" src="https://img.shields.io/badge/100%25-success"/></picture>
+* `Exam03` <picture><img height="25" align="right" src="https://img.shields.io/badge/90%25-success"/></picture>
+
+[^1]: NTI: Nothing turned in
+[^2]: DNC: Does not compile
+[^3]: TM: Timeout
+[^3]: SGA: SIGABORT
